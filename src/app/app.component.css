@@ -1,0 +1,697 @@
+.body{
+    width: 100%;
+    margin: 0px;
+}
+body img{
+    background-size: cover;
+}
+.container{
+    margin: 30px 0px; 
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+}
+.header Content{
+    text-decoration: none;
+    list-style: none;
+}
+.headeContent a{
+    margin: 0px 30px;
+
+}
+.headers{
+    margin:0px 30px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+.personal info{
+    margin-top: 80px;
+    align-items: center;
+
+}
+.sections{
+    font-size: 60px;
+}
+.subsections{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.header Content{
+    list-style: none;
+    text-decoration: none;
+    
+    
+    }
+.headerul{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding:20px;
+    
+}
+.headers:hover{
+    background-color:#191a19;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.3s ease;
+
+}
+
+.cv{
+    padding: 10px 15px;
+    width:fit-content; 
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3sec ease;
+    border-radius: 10px; 
+    border:2px solid black;
+}
+.profile{
+    width: 300px;
+    height:170px;
+    border:1px solid #858383;
+    width:300px;
+    margin-bottom:15px;
+    padding:25px;
+    word-wrap: nowrap;
+    border-radius: 10px
+}
+.mybio{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    row-gap: 50PX;
+    margin: 80px 0px;
+    column-gap: 50px;
+    
+    
+    
+    
+}
+.photo{
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.ex{
+    display:flex;
+    text-align: center;
+    margin: 20px 20px;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+}
+.technologies{
+    display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 100px;
+  margin-top: 20px;
+  justify-content: center;
+   }
+
+.tecard{
+  border: 1px solid #aaa;
+  padding: 20px;
+  border-radius: 10px;
+  width:400px;
+  height:300px;
+  margin: auto;
+  box-shadow: 2px 2px 5px #aaa;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+   }
+.tecard role{
+    text-align: center;
+}
+.maincard{
+    align-items: center;
+    display: flex;
+    row-gap: 0px;
+    
+    
+
+    
+
+}
+.mail{
+    border: 1px solid rgb(14, 14, 14) ;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 400px;
+    height: 100px;
+      
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+
+}
+
+.contact{
+    display: flex;
+    margin-top: 10px;
+    gap: 0px;
+    
+}
+.contact :hover{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    transition: all 0.3s ease;
+}
+.connect{
+    font-size: 25px;
+    justify-content: center;
+    
+    row-gap: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+
+.connect :hover{
+    
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform:scale(0.9);
+    color: rgb(74, 73, 73);
+    
+}
+html{
+    scroll-behavior:auto;
+    overflow: hidden;
+}
+#experience{
+    margin: 60px 0px;
+    
+}
+#project{
+    margin: 60px 0px;
+}
+.note{
+        font-size: 20px;
+        font-weight:lighter;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .skills{
+        row-gap: 20px;
+        column-gap: 20px;
+        text-wrap: nowrap;
+    }
+    .checkbox{
+        display: flex;
+        gap:5px
+    }
+    
+
+.image{
+    width: 200px;
+}
+.demo{
+    background-color: black;
+    padding:10px;
+    width: fit-content;
+    margin:auto;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.demo :hover{
+    background-color: rgb(66, 59, 59);
+}
+
+.contact throgh:hover{
+    color: rgb(70, 70, 189);
+    
+}
+
+.header Contentchild{
+    display: none;
+}
+.header Contentchild headerulmenu{
+  display: none;
+}
+.pgms{
+    width:300px;
+    margin: auto;
+    border: 1px solid rgb(31, 31, 31);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 5px rgb(100, 98, 98);
+
+}
+.live{
+    background-color: black;
+    color: white;
+    padding:10px 20px;
+    border-radius: 10px;
+
+}
+.live:hover{
+   background-color: #575454; 
+
+}
+.footer{
+    background-color: rgb(11, 11, 11);
+    height: 80px;
+    margin: 0px 0px; 
+    text-align: center;
+    justify-content: center;
+}
+.foot{
+    color:white; 
+    padding:15px;
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* *{
+    background-color: rgb(240, 240, 252);
+    margin:0px;
+    margin-top: 0px;
+} */
+
+/* For desktops (1024px and up) */
+@media (min-width: 1024px) {
+    .header Contentchild{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    
+
+  
+}
+
+/* For small screens (phones, less than 600px) */
+@media (max-width: 768px) {
+
+     .body{
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        margin: 0px 0px;
+        align-items: center;
+        
+         }
+         .profile name{
+            font-size: 25px;
+         }
+         
+.profi name{
+    margin: 50px;
+}
+
+.mybio{
+    align-items: center;
+}
+ .profile{
+    width:10px;
+    height:120px;
+    font-size: 90px;
+    gap:5px;
+    border:1px solid #585757;
+    width:300px;
+    margin-bottom:15px;
+    padding:10px ;
+    border-radius: 10px;
+    
+} 
+#aboutme{
+    margin: 60px 0px;
+}
+    
+.photo{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.header Content{
+    display: none;
+}
+
+
+.sidebar{
+    margin: 20px;
+
+}
+.ex{
+    display:flex;
+    text-align: center;
+    margin: 20px 0px;
+    gap:5px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+    
+
+}
+.project image{
+    width: 300px;
+}
+
+.image{
+    width: 300px;
+}
+         
+
+        .sections{
+    font-size: 40px;
+}
+.subsections{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+         .menubar{
+        
+            width: max-content;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background: #faf8f8;
+  padding: 10px;
+  color: #fff;
+
+            
+
+         }
+         .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #2d2b2b;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+.sidenav.open {
+  width: 150px;
+}
+.sidenav a {
+  font-size: large;
+  padding: 8px;
+  color: #efeeee;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+
+    h1{
+        font-size: 10px;
+        
+    } 
+    
+    .ex{
+        gap: 10px;
+
+    }
+    .header{
+    width: max-content;
+    display: inline;
+    margin: 10px 0px; 
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.menu{
+    text-align:start;
+}
+.technologies{
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+    justify-content:space-evenly;
+}
+.live{
+    padding: 10px;
+    font-size: medium;
+}
+.live :hover{
+    color: #820d0d;
+}
+.note{
+        font-size: medium;
+        font-weight:lighter;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+ 
+
+    .mybio{
+        display: inline;
+    }  
+    .mybio img{
+        margin: 0px 0px;
+    }
+    .header Contentchild{
+        width: max-content;
+        
+    }
+    .infor{
+        width:380px;
+        line-height: 1.5;  
+  word-wrap: break-word;
+  font-size: medium;
+    }
+    
+    .menu{
+        width: max-content;
+        display: flexbox;
+        margin-bottom: 50px;
+    }
+    .tecard{
+        align-items: center;
+    border: 1px solid rgb(11, 11, 11);
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+    .role{
+        font-size: large;
+        padding: 0px 50px;
+        justify-content: space-around;
+        text-align: center;
+        word-wrap: nowrap;
+        align-items: center;
+        
+    }
+    .pgm{
+        font-size: medium;
+    }
+    .professional{
+ width:700px;
+ font-size: 25px;
+ font-weight: lighter; 
+ font-size:20px;
+  word-wrap: break-word; 
+  white-space: normal;
+  
+  padding: 10px;
+  font-size: 20px;
+  margin: auto;
+    }
+    
+    .skills{
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+    body{
+        align-items: center;
+    }
+    .experience{
+        align-items: center;
+
+    }
+    .mail{
+        width:300px;
+        height:80px;
+        border-color:black ;
+    }
+    
+    
+    .headers{
+        display: none;
+        width: max-content;
+    }
+    .headerulmenu{
+        flex-direction: column;
+        margin: 0px;
+        width: max-content;
+    }
+    .headerschild{
+        display: block;
+        gap:10px;
+        column-gap: 20px;
+        flex-direction: column;
+        margin: 20px 0px;
+        width: max-content;
+        
+    }
+    .mail{
+        margin:0px  20px;
+    }
+    
+    .connect{
+        font-size: 20px;
+
+    }
+    
+    .maincard{
+        margin: auto;
+    }
+    .tecard{
+        width:max-content;
+    }
+    .profile{
+        font-size: 12px;
+        
+    }
+    .professional{
+        width:max-content;
+        word-wrap:unset;
+    }
+    .project img{
+        width: 100px;
+        
+    }
+    .pgms{
+        width: 200px;
+    }
+    .image{
+        width: 100px;
+    }
+    .foot{
+        font-size: small;
+    }
+    .footer{
+        justify-content: center;
+        margin: auto;
+        height:50px;
+    }
+    
+    
+    .header Content{
+        display: none;
+        flex-direction: column;
+    }
+    .headers{
+        margin: 0px 30px;
+    }
+    .maincard{
+    display:inline;
+    row-gap: 0px;
+    justify-content:space-between;
+    }
+    
+    
+}
+@media (min-width: 768px) and(max-width: 1024px) {
+
+     .infor{
+        text-align: center;
+        justify-content: center;
+        align-items:center ;
+        width:700px;
+     }
+
+    .mybio{
+        display:inline;
+    }  
+    .header Contentchild{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    .sidenav ul{
+        display: none;
+    }
+    .sidenav ul li a{
+        display: none;
+    }
+    .mail{
+    border: 1px solid rgb(14, 14, 14) ;
+    border-width: 300px;
+    margin: 0px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.headers{
+    margin:0px 10px;
+    padding: 10px 20px;
+}
+
+  
+.header Contentchild{
+    display: none;
+}
+.menubar{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.headerulmenu{
+    display: none;
+}
+.headerul{
+    display: none;
+}
+    
+}
+
+

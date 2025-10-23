@@ -1,0 +1,13 @@
+
+.ex{
+    display:flex;
+    text-align: center;
+    margin: auto;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+}
