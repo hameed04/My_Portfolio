@@ -347,6 +347,7 @@ html{
 
 .mybio{
     align-items: center;
+    
 }
  .profile{
     width:10px;
@@ -368,8 +369,11 @@ html{
     width:250px;
     height: 250px;
     border-radius: 50%;
+    margin-bottom: 40px;
+    
 
 }
+
 .header Content{
     display: none;
 }
@@ -494,11 +498,17 @@ html{
     }  
     .mybio img{
         margin: 0px 0px;
+        margin-bottom: 40px;
     }
     .header Contentchild{
         width: max-content;
         
     }
+    .personal info{
+    margin-top: 80px;
+    
+
+}
     .infor{
         width:380px;
         line-height: 1.5;  
